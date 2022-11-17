@@ -1,0 +1,305 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;300;400;500;600&display=swap');
+
+<element>
+Selector Specificity:(0, 0 ,0)
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+:root{
+    --bgcolor: #f1f5fd;
+    --primary-color : #27ae60;
+    --text-color : #666;
+    --main-text-color : #219150;
+
+}
+html{
+    font-size: 62.5%;
+}
+a{
+    text-decoration: none;
+    color: #fff;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6{
+    color: #333333;
+}
+
+.navbar-bg{
+    background-color: var(--bgcolor);
+    padding: 0.5rem 0;
+    z-index: 99;
+    position: relative;
+}
+
+.navbar-brand{
+    height: 10px;
+    width: 10px;
+    margin-bottom: 5rem; 
+    
+}
+.logo{
+    height: 60px;
+    width: 100px;
+    
+}
+.navbar li{
+    padding: 0 2rem;
+}
+.navbar li a{
+    font-size: 1.7rem;
+    font-weight:normal;
+    position: relative;
+}
+.navbar li a:hover{
+    color: var(--primary-color);
+    text-shadow: 0 0.2rem 0.3rem rgba(5, 121, 26, 0.5);
+}
+
+.btn-style{
+    width: 12rem;
+    height: 4rem;
+    border-radius: 2rem;
+    color: var(--bgcolor);
+    background-color: rgb(8, 129, 34);
+    text-transform: capitalize;
+    font-size: 1.6rem;
+}
+.btn-style :first-child{
+    margin-right: 2.5rem;
+}
+.btn-style:hover{
+    border: 0.3rem solid var(--primary-color);
+    background-color: transparent;
+    color: var(--main-text-color);
+}
+
+.btn-style-invert{
+    width: 24rem;
+    height: 8rem;
+    border-radius: 4rem;
+    border: 0.3rem solid var(--primary-color);
+    background-color: transparent;
+    color: var(--main-text-color);
+    font-size: 2rem;
+}
+
+.btn-style-invert:hover{
+    width: 24rem;
+    height: 8rem;
+    border-radius: 4rem;
+    color: var(--bgcolor);
+    background-color: var(--main-text-color);
+    text-transform: capitalize;
+    font-size: 2.5rem;
+}
+
+.carousel-bg{
+    overflow-y:hidden;
+    height: 659px;
+    position: relative;
+}
+.about-us-head{
+    overflow-y: hidden;
+    height: 170px;
+}
+.about-us-content{
+    overflow-y: hidden;
+    height: 700px;
+}
+.header-options:first-child{
+    margin-left: 20%;
+}
+
+.header-options{
+    display: flex;
+}
+.options:first-child{
+    margin-right: 10rem;
+    margin-left: 10%;
+    margin-bottom: 10%;
+}
+
+.footer-dark {
+    padding: 50px 0;
+    color: #f0f9ff;
+    background-color: #282d32;
+  }
+  
+  .footer-dark h3 {
+    margin-top: 0;
+    margin-bottom: 12px;
+    font-weight: bold;
+    font-size: 16px;
+    color: antiquewhite;
+  }
+  
+  .footer-dark ul {
+    padding: 0;
+    list-style: none;
+    line-height: 1.6;
+    font-size: 14px;
+    margin-bottom: 0;
+  }
+  
+  .footer-dark ul a {
+    color: inherit;
+    text-decoration: none;
+    opacity: 0.6;
+  }
+  
+  .footer-dark ul a:hover {
+    opacity: 0.8;
+  }
+  
+  @media (max-width:767px) {
+    .footer-dark .item:not(.social) {
+      text-align: center;
+      padding-bottom: 20px;
+    }
+  }
+  
+  .footer-dark .item.text {
+    margin-bottom: 36px;
+  }
+  
+  @media (max-width:767px) {
+    .footer-dark .item.text {
+      margin-bottom: 0;
+    }
+  }
+  
+  .footer-dark .item.text p {
+    opacity: 0.6;
+    margin-bottom: 0;
+  }
+  
+  .footer-dark .item.social {
+    text-align: center;
+    margin-top: 1rem;
+  }
+
+  .team {
+    margin: 0;
+    font-family: Roboto, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+    font-size: .8125rem;
+    font-weight: 400;
+    line-height: 1.5385;
+    color: #333;
+    text-align: left;
+    background-color: #f5f5f5;
+    }
+
+    .card {
+        height: 35rem;
+        width: 35rem;
+    }
+    .card-body{
+        font-size: 10px;
+    }
+    .mt-100 {
+    margin-top: 100px
+    }
+    .book {
+    color: #66bb6a
+    }
+    .bg-success-400 {
+    background-color: #66bb6a
+    }
+    [class*=bg-]:not(.bg-transparent):not(.bg-light):not(.bg-white):not(.btn-outline):not(body) {
+    color: #fff
+    }
+    .btn {
+    position: relative
+    }
+    .border-warning-400 {
+    border-color: #ff7043
+    }
+    
+    
+
+    .facebook{
+       color: #3b5998;
+    }
+
+    .google{
+
+       color: #dc4e41;
+    }
+
+    .linkedin{
+       color:#0077b5;
+    }
+
+    .twitter{
+       color:#55acee;
+    }
+
+
+
+
+
+
+  
+  @media (max-width:991px) {
+    .footer-dark .item.social {
+      text-align: center;
+      margin-top: 20px;
+    }
+  }
+  
+  .footer-dark .item.social > a {
+    font-size: 20px;
+    width: 36px;
+    height: 36px;
+    line-height: 36px;
+    display: inline-block;
+    text-align: center;
+    border-radius: 50%;
+    box-shadow: 0 0 0 1px rgba(255,255,255,0.4);
+    margin: 0 8px;
+    color: #fff;
+    opacity: 0.75;
+  }
+  
+  .footer-dark .item.social > a:hover {
+    opacity: 0.9;
+  }
+  
+  .footer-dark .copyright {
+    text-align: center;
+    padding-top: 24px;
+    opacity: 0.3;
+    font-size: 13px;
+    margin-bottom: 0;
+  }
+
+
+
+@media (min-width: 1500px){
+    .container,
+    .container-lg,
+    .container-md,
+    .container-sm,
+    .container-xl,
+    .container-xxl{
+        max-width: 1500px !important;
+    }
+}
+@media (min-width:1400px){
+    .container,
+    .container-lg,
+    .container-md,
+    .container-sm,
+    .container-xl,
+    .container-xxl{
+        max-width: 1400px ;
+    }
+}
